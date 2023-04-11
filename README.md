@@ -21,8 +21,11 @@ Authenticate user to access Google Drive:
 javascript
 
 from google.colab import auth
+
 auth.authenticate_user()
+
 from google.colab import drive
+
 drive.mount('/content/drive')
 
 Set up the Google Sheet to be accessed by the chatbot
@@ -41,6 +44,7 @@ Load the chatbot from disk using the following code:
 java
 
 from llama_index import GPTSimpleVectorIndex
+
 index = GPTSimpleVectorIndex.load_from_disk('index.json')
 
 Use the index object to generate responses to user queries.
