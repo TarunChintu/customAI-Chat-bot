@@ -1,4 +1,5 @@
 Introduction
+
 This project is about building a Chat GPT chatbot that can be trained on custom data. This chatbot can be integrated with Google Sheets to automatically update the chatbot with the latest information. The following instructions provide an overview of how to set up the project and use it.
 
 Installation
@@ -36,8 +37,11 @@ Run the code to access the Google Sheet and save it as a text file.
 Train the Chatbot
 
 Create two text files containing the training data. You can either use the text files generated from the Google Sheet or create them manually.
+
 Create a new Python file and copy the code from my_module.py and training.py
+
 Replace the directory_path parameter with the path to the directory containing the text files.
+
 Run the construct_index() function to train the chatbot and save it to disk.
 Use the Chatbot
 Load the chatbot from disk using the following code:
